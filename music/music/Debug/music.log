@@ -1,0 +1,15 @@
+﻿  library.cpp
+c:\users\pknu\desktop\ju\music\music\library.cpp(44): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: 'strtok' 선언을 참조하십시오.
+c:\users\pknu\desktop\ju\music\music\library.cpp(48): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: 'strdup' 선언을 참조하십시오.
+c:\users\pknu\desktop\ju\music\music\library.cpp(50): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: 'strtok' 선언을 참조하십시오.
+c:\users\pknu\desktop\ju\music\music\library.cpp(54): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: 'strdup' 선언을 참조하십시오.
+c:\users\pknu\desktop\ju\music\music\library.cpp(56): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10240.0\ucrt\string.h(453): note: 'strtok' 선언을 참조하십시오.
+c:\users\pknu\desktop\ju\music\music\library.cpp(60): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: 'strdup' 선언을 참조하십시오.
+  music.vcxproj -> C:\Users\PKNU\Desktop\ju\music\Debug\music.exe
+  music.vcxproj -> C:\Users\PKNU\Desktop\ju\music\Debug\music.pdb (Full PDB)
