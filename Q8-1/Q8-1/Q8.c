@@ -12,6 +12,7 @@ int main()
 	for (int i = 0; i < all; i++) {
 		fscanf(f1, "%d", &num);
 		N = malloc(sizeof(int)*num);
+
 		for (int j = 0; j < num; j++)	
 			fscanf(f1, "%d", &N[n++]);
 
@@ -33,7 +34,7 @@ int main()
 				else top--;
 			}
 			sum += top;
-			sum %= 1000000;
+			sum %= MAX_N;
 		}
 		printf("%d\n", sum % MAX_N);
 		n = 0;
