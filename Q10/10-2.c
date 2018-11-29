@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+
 char *moon[100];
 int num = 0;
 
@@ -29,16 +30,25 @@ void input() {
 void sort() {
 	char *buffer;
 	for (int i = 0; i < num - 1; i++) {
-		for (int j = 0; j < num; j++) {
-			if (compare(moon[i], moon[j]) == 0) {
-
+		for (int j = i + 1; j < num; j++) {
+			if (compare(moon[i], moon[j]) > 0) {
+				buffer = strdup(moon[j]);
+				moon[j] = moon[i];
+				moon[i] = buffer;
 			}
 		}
 	}
+}
+
+void print()
+{
+	for (int i = 0; i < num; i++)
+		puts(moon[i]);
 }
 
 int main()
 {
 	input();
 	sort();
+	print();
 }
