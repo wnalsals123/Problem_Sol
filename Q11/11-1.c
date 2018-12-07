@@ -7,6 +7,7 @@ typedef int boolean;
 
 int N, level; // start: level 0의미
 int cols[20]; // cols[1]의 값: 1번말의 열번호
+int count = 0;
 
 boolean promising(int level)
 {
@@ -24,7 +25,7 @@ boolean queens(int level) // level 만큼 퀸이 놓였다.
 	if (!promising(level))
 		return false;
 	else if (level == N)
-		return true;
+		count++;
 	for (int i = 1; i <= N; i++) {
 		cols[level + 1] = i;
 		if (queens(level + 1))
@@ -35,5 +36,10 @@ boolean queens(int level) // level 만큼 퀸이 놓였다.
 
 int main()
 {
-
+	for (int n = 1; n < 15; n++) {
+		N = n;
+		queens(0);
+		printf("%d-queen = %d\n", N, count);
+		count = 0;
+	}
 }
